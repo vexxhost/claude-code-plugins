@@ -1,0 +1,12 @@
+{
+  "name": "vexxhost",
+  "owner": {
+    "name": "VEXXHOST, Inc."
+  },
+  "plugins": [
+    {
+      "name": "git",
+      "source": "./git"
+    }
+  ]
+}
