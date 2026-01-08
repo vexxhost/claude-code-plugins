@@ -13,4 +13,5 @@ A Claude Code plugin that streamlines Git workflows by generating standardized c
 
 | Command | Description |
 |---------|-------------|
+| [`/git:commit-push`](commands/commit-push.md) | Create a commit and push changes |
 | [`/git:commit-push-pr`](commands/commit-push-pr.md) | Create a commit, push, and open a pull request |
