@@ -2,6 +2,20 @@
 
 A collection of plugins for Claude Code.
 
+## Getting Started
+
+### Add the Marketplace
+
+```
+/plugin marketplace add vexxhost/claude-code-plugins
+```
+
+### Install a Plugin
+
+```
+/plugin install git@vexxhost
+```
+
 ## Concepts
 
 - **Agent Skills**: Automatically invoked by Claude Code when relevant to your task. You can also explicitly invoke them using the Skill tool (e.g., `git:commit-message`).
