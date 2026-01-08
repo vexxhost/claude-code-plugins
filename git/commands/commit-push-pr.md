@@ -1,6 +1,7 @@
-# /git:commit-push-pr
-
-Create a commit, push, and open a pull request with the current changes.
+---
+description: Create a commit, push, and open a pull request with the current changes.
+allowed-tools: Skill(git:commit-message), Skill(git:pull-request)
+---
 
 ## Workflow
 

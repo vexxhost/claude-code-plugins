@@ -10,5 +10,5 @@ description: Generates commit messages. Use before any git operations involving 
 - Types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`
 - SHOULD be one logical change per commit - suggest splitting unrelated changes
 - SHOULD explain why, not just what changed
-- MUST include DCO sign-off
+- MUST use `git commit -s` to add DCO sign-off (do not add sign-off manually)
 - MUST update PR body when adding follow-up commits to an open PR

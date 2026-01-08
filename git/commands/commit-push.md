@@ -1,6 +1,7 @@
-# /git:commit-push
-
-Create a commit and push the current changes without opening a pull request.
+---
+description: Create a commit and push the current changes without opening a pull request.
+allowed-tools: Skill(git:commit-message)
+---
 
 ## Workflow
 

@@ -42,3 +42,4 @@ Once installed, the plugin's agent skills will automatically activate when relev
 | Plugin | Description |
 |--------|-------------|
 | [`git`](git/README.md) | Streamlines Git workflows by generating standardized commit messages and pull requests |
+| [`renovate`](renovate/README.md) | Manages Renovate workflows including fixing failing PRs and installing Renovate configurations |
