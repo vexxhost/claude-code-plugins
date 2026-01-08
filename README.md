@@ -2,6 +2,11 @@
 
 A collection of plugins for Claude Code.
 
+## Concepts
+
+- **Agent Skills**: Automatically invoked by Claude Code when relevant to your task. You can also explicitly invoke them using the Skill tool (e.g., `git:commit-message`).
+- **Commands**: User-invoked workflows triggered by typing the command name (e.g., `/git:commit-push-pr`).
+
 ## Getting Started
 
 ### Add the Marketplace
@@ -20,7 +25,7 @@ This registers the marketplace so you can browse and install plugins from it.
 
 Installing a plugin downloads it and enables its agent skills and commands in your Claude Code sessions. You can install plugins at different scopes:
 
-- **User**: Available to you across all projects
+- **User** (recommended): Available to you across all projects
 - **Project**: Available to all collaborators on the repository
 - **Local**: Available only to you in the current repository
 
@@ -31,11 +36,6 @@ To install a plugin (e.g., the `git` plugin):
 ```
 
 Once installed, the plugin's agent skills will automatically activate when relevant, and its commands will be available for you to invoke directly.
-
-## Concepts
-
-- **Agent Skills**: Automatically invoked by Claude Code when relevant to your task. You can also explicitly invoke them using the Skill tool (e.g., `git:commit-message`).
-- **Commands**: User-invoked workflows triggered by typing the command name (e.g., `/git:commit-push-pr`).
 
 ## Plugins
 
