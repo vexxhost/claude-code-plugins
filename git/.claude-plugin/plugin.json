@@ -1,3 +1,5 @@
 {
-  "name": "git"
+  "name": "git",
+  "version": "0.1.0",
+  "description": "A Claude Code plugin that streamlines Git workflows by generating standardized commit messages and pull requests."
 }
